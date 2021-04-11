@@ -1,46 +1,138 @@
 <!DOCTYPE html>
 
-<html>
+<html style="background-image : url('https://i.imgur.com/nID4ICN.jpg');>
 <head>
     <meta charset="utf-8">
     <title></title>
 </head>
 <body>
+
+<style>
+.marquee {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+ background: black;
+ color:whitesmoke;
+ border: 1px solid red;
+}
+.marquee p {
+ position: absolute;
+ width: 75%;
+ height: 75%;
+ margin: 0;
+ line-height: 25px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 5s linear infinite;
+ -webkit-animation: scroll-left 5s linear infinite;
+ animation: scroll-left 5s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+</style>
+
+<div class="marquee">
+<p>Welcome </p>
+</div>
+
 <div class="Blocker">
 <img src="https://i.imgur.com/JGoTA4G.jpg"/><a href=" https://www.facebook.com/sahand.slemani.79">Facebook</a> </div>
+
+
+
 <style>
 
+ 
+
+marquee{
+color: #00ff00 ;
+
+
+
+}
 
 
 .Blocker {
 
          background: blue ;
          color: blue ;
-      -webkit-border-radius: 100px;
-      -moz-border-radius: 50px;
-      border-radius:50px;
+      -webkit-border-radius: 75px;
+      -moz-border-radius: 25px;
+      border-radius:50 %;
       background:white;
     border-bottom: 4px solid blue ;;
    border-top :color : blue
    margin: 5px ;
     padding: 5px ;
+    background: yellowgreen ;
+    background-color: aquamarine;
+   
      
 
 
 }
+
+.Blocker1 {
+
+         background: blue ;
+         color: blue ;
+      -webkit-border-radius: 75px;
+      -moz-border-radius: 25px;
+      border-radius:50 %;
+      background:white;
+    border-bottom: 4px solid blue ;;
+   border-top :color : blue
+   margin: 5px ;
+    padding: 5px ;
+    background: yellowgreen ;
+    background-color: #800000;
+   
+     
+
+
+}
+
+
 a {
     center: no-repeat;
-   height: 120px ;
-   width: 120px ;
-   background-color: blue ;
-    color:whitesmoke ;
+   height: 40px ;
+   width: 40px ;
+   background-color:whitesmoke ;
+    color:Whitesmoke ;
     text-decoration: none ;
     text-transform: uppercase ;
    letter-spacing: 3px ;
    border: 1px solid green ;
    padding: 5px ;
    border-radius: 10px ;
-   box-shadow: 5px 5px 10px 0px blue ;
+   box-shadow: 5px 5px 10px 0px blue ;;
+   background-color: blue ;
+    border-color: blue ;
+   border-bottom-color: blue ;
 
 }
 
@@ -55,20 +147,99 @@ a:active{
 img {
    border: black ;
    border-radius: black ;
-   width:150 px ;
-      height: 150px ;
+   width:125px ;
+      height: 125px ;
        border-radius: 50%;
-        border: 3px ;
+        border: 10px ;
           margin: 20px ;
            padding: 20px ;
  }
 
 
-    
+   .Blocker2 {
+    center: no-repeat;
+   height: 40px ;
+   width: 40px ;
+   background-color:whitesmoke ;
+    color:Whitesmoke ;
+    text-decoration: none ;
+    text-transform: uppercase ;
+   letter-spacing: 3px ;
+   border: 1px solid green ;
+   padding: 5px ;
+   border-radius: 10px ;
+   box-shadow: 5px 5px 10px 0px red ;;
+   background-color: red ;
+    border-color: red ;
+   border-bottom-color:red ;
+
+}
+
+.Blocker3{
+
+         background: blue ;
+         color: blue ;
+      -webkit-border-radius: 75px;
+      -moz-border-radius: 25px;
+      border-radius:50 %;
+      background:white;
+    border-bottom: 4px solid blue ;;
+   border-top :color : blue
+   margin: 5px ;
+    padding: 5px ;
+    background: yellowgreen ;
+    background-color: 	#000000;
+   
+     
+
+
+}
+
+.a2{
+    center: no-repeat;
+   height: 40px ;
+   width: 40px ;
+   background-color:whitesmoke ;
+    color:Black ;
+    text-decoration: none ;
+    text-transform: uppercase ;
+   letter-spacing: 3px ;
+   border: 1px solid green ;
+   padding: 5px ;
+   border-radius: 10px ;
+   box-shadow: 5px 5px 10px 0px yellow ;;
+   background-color: yellow ;
+    border-color: yellow;
+   border-bottom-color: yellow ;
+
+}
+
 
 
 
 </style>
+
+
+<div class="Blocker1">
+
+<img src= "https://i.imgur.com/AReAdp0.jpg"/>
+
+<a class="Blocker2"href=" https://www.instagram.com/sparok.io">Instagram</a> </div>
+
+
+
+
+</div>
+
+<div class="Blocker3">
+<img src="https://i.imgur.com/vnIqMMl.jpg"/>
+<a class="a2"href="https://www.snapchat.com/add/ssahand583">SnapChat</a>
+
+
+
+
+
+</div>
 
 
 </body>
