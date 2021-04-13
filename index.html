@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 
-<html>
+<html style="background-image : url('https://images.unsplash.com/photo-1501492751416-51484c0d911f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjV8fHxlbnwwfHx8&w=1000&q=80'); >
 <head>
     <meta charset="utf-8">
     <title>Welcome</title>
 </head>
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+div.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-left p {
+  animation: slide-left 10s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</style>
+
+<div class="slide-left">
+<p style="color: #33ff33">Welcome</p>
+</div>
 
 
-<body>
 
 
 
@@ -42,14 +65,14 @@
 <style>
 
 .Sahand {
-background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/05/Facebook-796x398.jpg") ;
+background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-dark-blue-lines-background-download-image_232885.jpg") ;
 
 background-attachment: fixed;
 
 background-position: center;
 border:solid;
 border style:solid;
-border-color:Yellow;
+border-color: #66ffff;
 border-radius:50 %;
 border-left:50 %;
 border-right:50%;
@@ -58,14 +81,14 @@ border-right:50%;
 
 
 .Sahand1 {
-background-image: url("https://images7.alphacoders.com/101/thumb-350-1017006.png") ;
+background-image: url("http://getdrawings.com/vectors/red-background-vector-6.jpg") ;
 
 background-attachment: fixed;
 
 background-position: center;
 border:solid;
 border style:solid;
-border-color:Yellow;
+border-color: #ff1a1a;
 border-radius:50 %;
 border-left:50 %;
 border-right:50%;
@@ -73,7 +96,7 @@ border-right:50%;
 }
 
 .sahand2{
-background-image: url("https://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/lg/public/2017/04/24/snapchat.jpg") ;
+background-image: url("https://wallpapercave.com/wp/wp2457237.jpg") ;
 
 background-attachment: fixed;
 
@@ -84,6 +107,8 @@ border-color:Yellow;
 border-radius:50 %;
 border-left:50 %;
 border-right:50%;
+height:50%;
+margin:0;
 
 }
 
@@ -110,6 +135,8 @@ img{
          border-color:Green ;
           margin: 0px ;
            padding: 0px ;
+           height:50%;
+
 
 }
 
