@@ -53,62 +53,11 @@ require_once'Get.php'
 </form>
 
 </center>
-<style>
 
 
 
 
 
-
-body{
-    background:teal;
-    
-}
-
-.Sahand{
-    
-    background: #628080;
-    color:black;
-    border-radius:10px; 
-    box-shadow:0px 0px 10px 0 SpringGreen;
-    width:400px;
-    padding:5px;
-    margin:5px;
-    
-    
-}
-.Sahand1{
-box-shadow:0px 0px 5px 0 aquamarine;
-
-
-}
-
-input{
-    background:Snow;
-    border-radius:25px;
-     width:250px;
-    
-    
-    
-}
-button{
-width:150px;
-background:Snow;
-border-radius:10px;
-box-shadow: 0px 0px 5px green;
-
-
-}
-
-
-img{
-
-border-radius:15px;
-height:75px;
-width:75px;
-
-}
-</style>
 
 </body>
 </html>
