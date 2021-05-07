@@ -4,7 +4,7 @@
   if(Tag=="I"){
  
 
-   document.write(Sahand());
+  open("https://sahand-chemist-i.netlify.app/");
 
  
   }
