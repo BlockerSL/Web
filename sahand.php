@@ -1,4 +1,5 @@
-
+<?php
+echo '
 <!DOCTYPE html>
 
 <html>
@@ -75,3 +76,6 @@ width:150px;
 
 </body>
 </html>
+';
+
+?>
