@@ -3,8 +3,7 @@
   var  Tag=document.getElementById("Tag").value;
   if(Tag=="I"){
  
-
- S1()
+ S1();
 
  
   }
