@@ -1,7 +1,7 @@
     function sahand()
 {
   var  Tag=document.getElementById("Tag").value;
-  if(Tag=="I"){
+  if(Tag=="Cl"){
  
 
   open("https://sahand-chemist-i.netlify.app/");
