@@ -4,7 +4,7 @@
   if(Tag=="I"){
  
 
-window.location.href = 'sahand.html';
+window.location.href = "https://github.com/BlockerSL/Web/blob/a46e66a04b34a2a7f65916f202fc18592fed9759/sahand.html";
 
  
   }
