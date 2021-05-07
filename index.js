@@ -3,39 +3,24 @@
   var  Tag=document.getElementById("Tag").value;
   if(Tag=="I"){
  
-document.write("   <table> 
 
-      <tr> 
-        <th style="background-color: #778899;">ناوی شێوگ</th> 
-        <th style="background-color: #778899;"> جۆرەکانی</th> 
-      </tr> 
-      <tr> 
-     
-        <td>ێۆدید</td> 
-        <td>Io<sup>-</sup> , Io<sub>2</sub><sup>-</sup> , Io<sub>3</sub><sup>-</sup> , Io<sub>4</sub><sup>-</sup></td> 
-      </tr> 
-<tr>
+document.write("<TABLE BORDER=ON>");
+document.write("<TH>Item Number</TH><TH>Item Name</TH><TH>Model Number</TH><TH>Quantity</TH>");
+for(x=1; x<=3; x++) {
+document.write("<TR><TD>",x,"</TD>");
+for(y=0; y<=2; y++){
+document.write("<TD>",table[x][y],"</TD>");
+}
+document.write("</TR>");
+}
+document.write("</TABLE>");
+}
+part1 = new Array("Bro<sub>4</sub>","3",78);
+part2 = new Array("B","2",45);
+part3 = new Array("C","1","14");
+brakeParts = new Array("",part1,part2,part3);
 
-<td>Io<sup>-</sup></td>
-<td> ژێر ێۆدیت </td>
-
-</tr>
-
-
-<tr>
-<td>Io<sub>2</sub><sup>-</sup></td>
-<td>ێۆدیت</td>
-</tr>
-   <tr>
-<td>Io<sub>3</sub><sup>-</sup></td>
-<td>ێۆدات</td>
-</tr>
-<tr>
-<td>Io<sub>4</sub><sup>-</sup></td>
-<td>پێر & ژوور  ێۆدات</td>
-</tr>
-
-    </table> ");
+displayInventory(brakeParts);
 
  
   }
