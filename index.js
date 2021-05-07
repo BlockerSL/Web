@@ -4,7 +4,7 @@
   if(Tag=="I"){
  
 
-S1()
+ document.write(S1());
 
  
   }
