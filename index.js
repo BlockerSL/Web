@@ -4,6 +4,18 @@
   if(Tag=="I"){
  
 
+displayInventory(table);
+
+ 
+  }
+  
+  else{
+    alert("fail");
+  }
+  
+}
+
+function displayInventory(table) {<!--from w w  w. j a  va 2  s  . c  o  m-->
 document.write("<TABLE BORDER=ON>");
 document.write("<TH>Item Number</TH><TH>Item Name</TH><TH>Model Number</TH><TH>Quantity</TH>");
 for(x=1; x<=3; x++) {
@@ -21,12 +33,3 @@ part3 = new Array("C","1","14");
 brakeParts = new Array("",part1,part2,part3);
 
 displayInventory(brakeParts);
-
- 
-  }
-  
-  else{
-    alert("fail");
-  }
-  
-}
