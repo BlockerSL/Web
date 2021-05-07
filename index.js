@@ -4,7 +4,7 @@
   if(Tag=="I"){
  
 
-window.location.href = 'sahand.html';
+window.location.href = 'index.php';
 
  
   }
