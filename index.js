@@ -2,7 +2,7 @@
 {
   var  Tag=document.getElementById("Tag").value;
   if(Tag=="I"){
-  document.write("  <h1>ێۆدید</h1>");
+  document.write("  <h1 style="color:red;">ێۆدید</h1>");
  
   
   }
