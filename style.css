@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+th {
+  width: 25%;
+  background: #007bff;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+}
+
+td {
+  width: 25%;
+  padding: 10px;
+  border: 1px #000000 solid;
+  border-radius: 5px;
+}
+
+/*
+  NOTE: Width is 25% because we have 4 columns
+  You can set according to the number of columns
+*/
