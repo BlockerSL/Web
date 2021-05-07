@@ -16,21 +16,16 @@
 }
 function S1()
 {
-var users = ['Bro<sup>-</sup> ', 'Bro<sub>2</sub><sup>-</sup>', 'Bro<sub>3</sub><sup>-</sup>','Bro<sub>4</sub><sup>-</sup>'];
-    var ages = ['ژوور بڕۆمات','بڕۆمات','بڕۆمیت','ژێر بڕۆمیت'];
 
-    // Getting output element
-    var output = document.getElementById('output');
+var x=['Sahand','bako'];
+var z=[25,45,50];
+var a=[50,55,60,70];
 
-    // Creating table tags
-    var table = "<table><thead><tr><th>ID</th><th>Name</th><th>Age</th></tr></thead><tbody>";
+console.log("name = "+x);
+console.log("Number = "+z);
+console.log("Num = "+a[0]);
+console.log("Number = "+a[1]);
+console.log("Num = "+a[2]);
+console.log("Num = "+a[3]);
 
-    for (var i = 0; i < users.length; i++) {
-      table += "<tr><td>" + (i + 1) + "</td><td>" + users[i] + "</td><td>" + ages[i] + "</td><td>"  + "</td></tr>";
-    }
-
-    table += "</tbody></table>";
-
-    // Binding output element with table var
-    output.innerHTML = table;
 }
