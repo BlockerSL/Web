@@ -4,7 +4,7 @@
   if(Tag=="I"){
  
 
-window.location.href = 'I.html';
+window.location.href = 'sahand.html';
 
  
   }
