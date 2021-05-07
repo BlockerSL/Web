@@ -4,7 +4,7 @@
   if(Tag=="I"){
  
 
-   displayInventory();
+   displayInventory(table);
 
  
   }
