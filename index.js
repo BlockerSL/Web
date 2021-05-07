@@ -3,7 +3,9 @@
   var  Tag=document.getElementById("Tag").value;
   if(Tag=="I"){
  
-document.write("<h1> ێۆدید</h1>");
+
+window.location.href = 'I.html';
+
  
   }
   
