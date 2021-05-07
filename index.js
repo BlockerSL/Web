@@ -3,23 +3,7 @@
   var  Tag=document.getElementById("Tag").value;
   if(Tag=="I"){
  
-document.write("<div>
-  <style> 
-        table, th, td 
-        { 
-            border-collapse:collapse; 
-            border:1px solid black; 
-        } 
-        th, td 
-        { 
-            padding:5px; 
-        } 
-    </style> 
-    </head> 
- 
-    <body> 
- 
-    <table> 
+document.write("   <table> 
 
       <tr> 
         <th style="background-color: #778899;">ناوی شێوگ</th> 
@@ -51,26 +35,7 @@ document.write("<div>
 <td>پێر & ژوور  ێۆدات</td>
 </tr>
 
-    </table> 
-</center>
-
-</body>
-<style>
-
-body{
-
-background-attachment: fixed;
-background-position:center;
-background-repeat:no-repeat;
-
-}
-h1{
-border-radius:50px;
-box-shadow:0px 0px 10px 0px yellowgreen;
-
-}
-</style>
-</div>");
+    </table> ");
 
  
   }
