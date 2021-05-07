@@ -3,7 +3,7 @@
   var  Tag=document.getElementById("Tag").value;
   if(Tag=="I"){
  
-console.log("<head>
+document.write("<head>
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
   
