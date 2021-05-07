@@ -2,7 +2,7 @@
 {
   var  Tag=document.getElementById("Tag").value;
   if(Tag=="I"){
-  document.write("Yoded");
+  document.write("<h1>Hello</h1>");
  
   
   }
