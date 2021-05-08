@@ -8,10 +8,6 @@
 
  
   }
-  
-  else{
-    alert("fail");
-  }
 
 if(Tag=="Br"){
  
@@ -20,12 +16,14 @@ if(Tag=="Br"){
 
  
   }
+
   
   else{
     alert("fail");
   }
-  
 
+  
+ 
 
   
 }
