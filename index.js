@@ -51,6 +51,14 @@ if(Tag=="Oh"){
  
   }
 
+if(Tag=="N"){
+ 
+
+  open("https://sahand-chemist-n.netlify.app/");
+
+ 
+  }
+
   
   else{
     alert("fail");
