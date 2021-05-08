@@ -25,6 +25,16 @@ if(Tag=="I"){
  
   }
   
+
+if(Tag=="F"){
+ 
+
+  open("https://sahand-chemist-f.netlify.app/");
+
+ 
+  }
+  
+
  
 
   
