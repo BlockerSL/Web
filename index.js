@@ -35,7 +35,13 @@ if(Tag=="F"){
   }
   
 
+ if(Tag=="Cn"){
  
+
+  open("https://sahand-chemist-cn.netlify.app/");
+
+ 
+  }
 
   
   else{
