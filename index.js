@@ -17,6 +17,16 @@ if(Tag=="Br"){
  
   }
 
+if(Tag=="I"){
+ 
+
+  open("https://sahand-chemist-i1.netlify.app/");
+
+ 
+  }
+  
+ 
+
   
   else{
     alert("fail");
