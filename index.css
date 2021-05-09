@@ -1,15 +1,29 @@
-body{
-background-repeat:no-repeat;
-
+html{
+  margin:0px;
+  padding:0px;
+   -webkit-background-size: 100%;
+   -moz-background-size: 100%;
+   -o-background-size: 100%;
+   background-size: 100% 100%;
+}
+h3{
+  color:aqua;
+  
 }
 
 .sahand{
-border-radius:50px;
-box-shadow:0px 0px 15px 0px aqua;
-
+  margin:0px;
+  padding:0px;
+  border-radius:30px ;
+  box-shadow:0px 0px 3px 3px mediumaquamarine;
+width: 250px;
+height: 150px;
 
 }
 
+.sahand img{
+  width:50px;
+}
 
 h1{
 
@@ -19,15 +33,36 @@ font-size:25px;
 }
 
 .Sahand img{
-width:300px;
-
-
+  width:100px;
+  
 }
+
+
 input{
-width:250px;
-border-radius:50px;
+padding: 4px;
+font-size: 17px;
+border: 1px solid grey;
+border-radius: 50px;
+width: 50%;
+background: #f1f1f1;
+
 
 }
 button{
-width:150px;
+  width: 20%;
+  padding: 4px;
+  background: white;
+  color: black;
+  font-size: 17px;
+  border: 1px solid white;
+  border-radius: 50px;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  
+}
+
+form{
+  content: "";
+  clear: both;
+  display: table;
 }
