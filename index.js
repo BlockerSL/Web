@@ -4,7 +4,7 @@
   if(Tag=="Cl"){
  
 
- window.open("https://sahand-chemist-i.netlify.app", "_self");
+ open("https://sahand-chemist-i.netlify.app", "_self");
 
  
   }
